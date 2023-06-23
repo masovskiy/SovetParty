@@ -1,7 +1,6 @@
 // This template was made by FusionTerror.
 const DiscordRPC = require('discord-rpc'); // Requiring the discord-rpc package.
 const client = new DiscordRPC.Client({ transport: 'ipc' }); // Creating a client variable with is our rpc client.
-require('dotenv').config(); // Requiring the content of our .env file.
 
 (async () => {
     client.on('ready', async () => { // Calling the ready event.
@@ -19,5 +18,5 @@ require('dotenv').config(); // Requiring the content of our .env file.
         console.log("Done");
     });
 
-    await client.login({ clientId : "Your Client ID" }).catch(console.error); // Logging into our application.
+    await client.login({ clientId : "1094344721721213078" }).catch(console.error); // Logging into our application.
 })();
