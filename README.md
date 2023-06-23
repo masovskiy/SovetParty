@@ -4,7 +4,7 @@ GLORY TO SOVIET UNION!
 - Install Node JS
 - Install This Code
 - Open start.bat
-# On Linux or MaOS
+# On Linux or MacOS
 - Install Node JS
 - Install This Code
 - Open start.sh
